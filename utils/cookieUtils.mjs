@@ -185,7 +185,7 @@ function createEvent(event, data) {
     if (typeof data === "object") {
         data = JSON.stringify(data);
     }
-    return `event: ${event}\ndata: ${data}\n\n`;
+    return `data: ${data}\n\n`;
 }
 
 function extractPerplexityCookie(cookieString) {
